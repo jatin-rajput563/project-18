@@ -1,0 +1,333 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    border: none;
+    box-sizing: border-box;
+    text-decoration: none;
+
+}
+section{
+    justify-content: center;
+    max-height: 100vh;
+    
+    justify-items: center;
+    align-items: center;
+    text-align: left;
+}
+.container{
+    max-width: 1170px;
+    padding-left: 12px;
+    padding-right: 12px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-right:-12px;
+    margin-left: -12px;
+}
+.justify-content-between{
+    justify-content: space-between;
+}
+
+.d-flex{
+    display: flex;
+}
+
+.col-6 {
+    width: 50%;
+    padding-left:12px;
+    padding-right:12px;
+}
+
+
+/*------------card details------------*/
+.line{
+    font-family: Lato;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    text-align: right;
+    color: #9197A6;
+    display: flex;
+    margin-top: 20px; 
+}
+.line::before,
+.line::after{
+    content: "";
+    flex: 1;
+    border-bottom: 2px solid rgb(202, 199, 199) ;
+    margin: 10px;
+}
+
+.forgot{
+    font-family: Lato;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    text-align: left;
+    color: #62656D;
+    
+}
+.para-1{
+    font-family: Lato;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    text-align: left;
+    color: #62656D;
+    
+}
+.para-2{
+    font-family: Lato;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    text-align: left;
+    color: #62656D;
+    margin-left: 10px;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+
+}
+.heading{
+    margin-top: 10px;
+    margin-bottom: 32px;
+}
+.img-1{
+    margin-top: 90px;
+}
+h1{
+font-family: Poppins,sans-serif;
+font-size: 32px;
+font-weight: 600;
+line-height: 43.2px;
+text-align: left;
+margin-top: 48px;
+margin-bottom: 10px;
+
+}
+.text{
+    color: #62656D;
+    font-family: Lato,sans-serif;
+font-size: 14px;
+font-weight: 400;
+line-height: 21px;
+text-align: left;
+
+}
+.text-2{
+    font-family: Lato,sans-serif;
+font-size: 14px;
+font-weight: 400;
+line-height: 21px;
+text-align: left;
+color: #2563EB;
+}
+/*------------------label and input details----------------*/
+label{
+    position: relative;
+}
+
+ #icon-box-1{
+    font-family: Lato,sans-serif;
+    border: 2px solid rgb(204, 203, 203);
+    padding-left: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 6px;
+    width: 340px;
+    height: 44px;
+}
+.svg-1{
+    position: absolute;
+    left: 10px;
+    top: 13px;
+}
+.svg-2{
+    position: absolute;
+   left: 10px;
+   top: 20px;
+
+}
+.svg-3{
+    position: absolute;
+   left: 300px;
+   top: 20px;
+ 
+}
+#icon-box-2{
+    font-family: Lato,sans-serif;
+    border: 2px solid rgb(203, 202, 202);
+    border-radius: 6px;
+    padding-left: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 10px;
+    width: 340px;
+    height: 44px;
+}
+.left-items{
+    display: flex;
+    gap: 10px;
+}
+.btn{
+    color: white;
+}
+Button{
+    font-family: poppins,sans-serif;
+    width: 340px;
+height:48px;
+top: 446px;
+border-radius: 50px ;
+background: linear-gradient(83.67deg, #2194FF 10.02%, #2563EB 90.05%);
+color: white;
+
+}
+.checkbox-parent{
+    margin-top: 12px;
+    margin-bottom: 24px;
+}
+.button-parent{
+    display: flex;
+    margin-top: 20px;
+}
+
+.button{
+    display: flex;
+    border: 2px solid rgb(212, 210, 210);
+    margin-right: 8px;
+    width:165px;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 6px;
+
+}
+
+.para{
+    margin-left:10px;
+    color: #96989f;
+    font-family: Lato;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    text-align: left;
+    
+}
+/*----------card-2 details--------*/
+
+
+body{
+    background-image: url(/assets/image/pic-1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+.bg-image-2{
+    position: absolute;
+    background-image: url(/assets/image/img-3.png);
+    top: 144px;
+    margin-left: 110px;
+    width: 550px;
+    height: 550px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.bg-img-3{
+    position: absolute;
+    background-image: url(/assets/image/img-4.png);
+    top:80px ;
+    margin-left: 50px;
+    width: 450px;
+    height: 380px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.bg-img-4{
+    position: absolute;
+    background-image: url(/assets/image/img-5.png);
+    top: 15px;
+    right: 250px;
+    width: 210px;
+    height: 360px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/*------------icon details--------------*/
+.facebook-1{
+    position: absolute;
+    top:8px;
+    left: 8px;
+    
+}
+.linkdin{
+    position: absolute;
+    top:6px;
+    left:7px;
+}
+.insta{
+    position: absolute;
+    top:8px;
+    left:8px;
+}
+.twiter{
+    position: absolute;
+    top: 8px;
+    left: 7px;
+}
+.img-5{
+position: absolute;
+bottom: 50px;
+left: 230px;
+}
+/*------------circle details----------------*/
+.circle-1{
+    position: relative;
+    width: 64px;
+height: 64px;
+border-radius: 42px;
+background-color:white;
+bottom: 20px;
+right: 40px;
+}
+.circle-2{
+    position: relative;
+    width: 64px;
+height: 64px;
+border-radius: 42px;
+background-color:white;
+bottom: 20px;
+right: 40px;
+margin-top: 40px;
+}
+.circle-3{
+    position: relative;
+    width: 64px;
+height: 64px;
+border-radius: 42px;
+background-color:white;
+bottom: 20px;
+right: 40px;
+margin-top: 60px;
+}
+.circle-4{
+    position: relative;
+    width: 64px;
+height: 64px;
+border-radius: 42px;
+background-color:white;
+bottom: 20px;
+right: 40px;
+margin-top: 40px;
+}
